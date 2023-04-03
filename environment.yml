@@ -1,0 +1,10 @@
+name: analysis
+channels:
+  - conda-forge
+dependencies:
+#  - rasterio 
+#  - geowombat
+#  - matplotlib
+#  - numpy
+#  - scipy
+  - jupyterlab
