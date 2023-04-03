@@ -1,6 +1,5 @@
-FROM --platform=linux/amd64 continuumio/miniconda
+FROM --platform=linux/amd64 python:latest
 EXPOSE 8888
 WORKDIR /usr/analysis
-COPY environment.yml ./
-RUN conda env create -f environment.yml
-ENV CONDA_DEFAULT_ENV analysis
+COPY requirements.txt ./
+RUN pip install --no-cache-dir -r requirements.txt

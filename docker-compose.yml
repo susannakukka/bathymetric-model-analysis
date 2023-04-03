@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  python:
+    container_name: final-assignment
+    platform: linux/amd64
+    build: .
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./:/usr/analysis
+    ports:
+      - 8888:8888
+    command: jupyter lab --allow-root --no-browser --ip=0.0.0.0
