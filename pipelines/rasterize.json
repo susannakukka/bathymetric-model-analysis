@@ -1,8 +1,8 @@
 {
     "pipeline": [
-        "/Users/susanna/repos/gradu/data/nuorgam_ALS_data/Kukkavuori_Nuorgam_ETRSTM35FIN_N2000.laz",
+        "/Users/susanna/repos/gradu/data/output/nuorgam_als_filtered.laz",
         {
-            "filename":"/Users/susanna/repos/gradu/data/output/nuorgam_als_dtm.tif",
+            "filename":"/Users/susanna/repos/gradu/data/output/nuorgam_als_filtered_dtm.tif",
             "gdaldriver":"GTiff",
             "output_type":"all",
             "resolution":"1.0",
