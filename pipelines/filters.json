@@ -1,0 +1,11 @@
+[
+    "/Users/susanna/repos/gradu/data/nuorgam_ALS_data/Kukkavuori_Nuorgam_ETRSTM35FIN_N2000.laz",
+    {
+        "type":"filters.range",
+        "limits":"Z[0:100],Classification[2:2]"
+    },
+    {
+        "type":"writers.las",
+        "filename":"/Users/susanna/repos/gradu/data/output/nuorgam_als_filtered.laz"
+    }
+]
