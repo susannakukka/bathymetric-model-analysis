@@ -8,3 +8,5 @@
 
 - validaatiosyvyys asv-datalle laskettiin seuraavasti:
   tiedettiin asv päivän (19.9.22) vedenpinnan korkeus (64,41m), ja tiedettiin validaatiopisteiden elevation height. Voitiin siis laskea pohjan elevation height miinustamalla asv:n data päivän vedenpinnan korkeudesta. Validaatiopisteiden vastaava tulos saatiin laskettua, kun miinustettiin pohjan eh:sta validaatiopisteiden eh.
+
+  seuraava steppi - kokeile saatko aikaiseksi tota syvyystietoa als datasta - selvitä, mikä on nuorgamin kohtalo - selvitä, onko tää edes hyvä/oikea lähestymistapa koko hommaan
