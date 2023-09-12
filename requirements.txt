@@ -5,3 +5,4 @@ scipy
 jupyterlab
 geopandas
 pandas
+scikit-learn
