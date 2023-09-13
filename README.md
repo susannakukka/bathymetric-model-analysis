@@ -26,3 +26,5 @@ originaali skripti, arvoja muutettu vallen takia
         "filename":"/Users/susanna/repos/gradu/data/output/valle_als_filtered_2.laz"
     }
 ]
+
+https://pdal.io/en/latest/stages/filters.range.html filteröintiohjeita
