@@ -1,11 +1,11 @@
 {
     "pipeline": [
-        "/Users/susanna/repos/gradu/data/output/nuorgam_als_filtered.laz",
+        "/Users/susanna/repos/gradu/data/output/valle_als_filtered_4.laz",
         {
-            "filename":"/Users/susanna/repos/gradu/data/output/nuorgam_als_filtered_dtm.tif",
+            "filename":"/Users/susanna/repos/gradu/data/output/valle_als_filtered_dtm_0.05_3.tif",
             "gdaldriver":"GTiff",
             "output_type":"all",
-            "resolution":"1.0",
+            "resolution":"0.05",
             "type": "writers.gdal"
         }
     ]
