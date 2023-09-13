@@ -10,3 +10,19 @@
   tiedettiin asv päivän (19.9.22) vedenpinnan korkeus (64,41m), ja tiedettiin validaatiopisteiden elevation height. Voitiin siis laskea pohjan elevation height miinustamalla asv:n data päivän vedenpinnan korkeudesta. Validaatiopisteiden vastaava tulos saatiin laskettua, kun miinustettiin pohjan eh:sta validaatiopisteiden eh.
 
   seuraava steppi - kokeile saatko aikaiseksi tota syvyystietoa als datasta - selvitä, mikä on nuorgamin kohtalo - selvitä, onko tää edes hyvä/oikea lähestymistapa koko hommaan
+
+
+## laz pipeline
+https://pdal.io/en/2.4.3/workshop/exercises/analysis/dtm/dtm.html execution ohjeet
+originaali skripti, arvoja muutettu vallen takia
+[
+    "/Users/susanna/repos/gradu/data/valle_ALS_data/Kukkavuori_Valle_ETRSTM35FIN_N2000.laz",
+    {
+        "type":"filters.range",
+        "limits":"Z[10:20],Classification[1:3]"
+    },
+    {
+        "type":"writers.las",
+        "filename":"/Users/susanna/repos/gradu/data/output/valle_als_filtered_2.laz"
+    }
+]
