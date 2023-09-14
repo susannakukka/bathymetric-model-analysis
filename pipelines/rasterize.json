@@ -1,8 +1,8 @@
 {
     "pipeline": [
-        "/Users/susanna/repos/gradu/data/output/valle_als_filtered_4.laz",
+        "/Users/susanna/repos/gradu/data/output/valle_als_filtered_8.laz",
         {
-            "filename":"/Users/susanna/repos/gradu/data/output/valle_als_filtered_dtm_0.05_3.tif",
+            "filename":"/Users/susanna/repos/gradu/data/output/valle_als_filtered_dtm_0.05_4.tif",
             "gdaldriver":"GTiff",
             "output_type":"all",
             "resolution":"0.05",
