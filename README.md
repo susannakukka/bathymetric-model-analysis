@@ -1,4 +1,5 @@
 # gradu
+docker compose up
 
 ## analysis
 - on tehty qgis:ssa analyysi, missä saatu jokaiselle validaatiopisteelle kaukokartoitusaineistosta vastaavat pisteet arvoineen (asv,als, satellite)
