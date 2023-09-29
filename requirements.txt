@@ -6,3 +6,4 @@ jupyterlab
 geopandas
 pandas
 scikit-learn
+seaborn
