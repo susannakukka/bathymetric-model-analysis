@@ -33,7 +33,7 @@ https://pdal.io/en/latest/stages/filters.range.html filteröintiohjeita
 
 valle als dtm laskettiin resoluutioon 0.5, ja klassifioitiin arvoihin z arvot väliltä 70-100, classification luokat 0-2 ja 4. Näillä arvoilla dataa saatiin eniten siivottua.
 
-
+https://pdal.io/en/latest/stages/writers.gdal.html#writers-gdal
 
 
 ## ASV DEM Nuorgam
