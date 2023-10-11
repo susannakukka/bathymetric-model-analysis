@@ -39,3 +39,8 @@ https://pdal.io/en/latest/stages/writers.gdal.html#writers-gdal
 ## ASV DEM Nuorgam
 - tehty IDW interpolation
 - arvot: Distance Coefficient (P): 3, pixel size: 0,05
+
+
+## Muita linkkejä
+- R-squared https://www.statology.org/r-squared-in-python/
+- 
