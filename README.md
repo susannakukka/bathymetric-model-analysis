@@ -43,4 +43,5 @@ https://pdal.io/en/latest/stages/writers.gdal.html#writers-gdal
 
 ## Muita linkkejä
 - R-squared https://www.statology.org/r-squared-in-python/
+- Interpolation method picking https://docs.qgis.org/3.4/en/docs/gentle_gis_introduction/spatial_analysis_interpolation.html
 - 
