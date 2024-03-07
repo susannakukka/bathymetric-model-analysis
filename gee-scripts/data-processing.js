@@ -26,10 +26,6 @@ var dataset = ee
   .filter(ee.Filter.lt("CLOUDY_PIXEL_PERCENTAGE", 10))
   .map(maskS2clouds);
 
-// Get timestamp
-var date1 = dataset.sort("system:time_start", true).first().date();
-var date2 = dataset.sort("system:time_start", false).first().date();
-print(date1, date2);
 
 // Get the number of images in the collection
 var count = dataset.size();
@@ -68,6 +64,19 @@ Map.addLayer(nuorgam_sentinel_clip, visualization, "RGB_nuorgam");
 // Get info of map projection for export
 var projection_n = nuorgam_sentinel_clip.projection().getInfo();
 var projection_v = valle_sentinel_clip.projection().getInfo();
+
+// Get the number of images
+var count_clip = valle_sentinel.size();
+print("Final count: ", count_clip);
+
+// Get timestamp
+var date1 = valle_sentinel.sort('system:time_start',true).first().date()
+var date2 = valle_sentinel.sort('system:time_start',false).first().date()
+print(date1, date2)
+
+var date3 = nuorgam_sentinel.sort('system:time_start',true).first().date()
+print(date3)
+
 
 // EXPORT TIFF UTSJOKI
 //Export.image.toDrive({
